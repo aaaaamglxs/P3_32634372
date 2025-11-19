@@ -4,13 +4,13 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'API P3_31898868. Vinilos Retro',
+      title: 'API P3_32634372. Vinilos',
       version: '1.0.0',
-      description: 'Documentación de la API para la gestión de productos, categorías y etiquetas.',
+      description: 'Documentación de la API para la gestión de productos',
     },
     servers: [
       {
-        url: 'https://p3-31898868-1-6ia2.onrender.com',
+        url: 'https://p3-32634372.onrender.com',
         description: 'Servidor en Render'
       },
       {
@@ -31,15 +31,15 @@ const options = {
           type: 'object',
           properties: {
             id: { type: 'integer', example: 1 },
-            nombreCompleto: { type: 'string', example: 'Daniel Pérez' },
-            email: { type: 'string', example: 'daniel@example.com' }
+            nombreCompleto: { type: 'string', example: 'Alba Romero' },
+            email: { type: 'string', example: 'Alba112@example.com' }
           }
         },
         Product: {
           type: 'object',
           properties: {
             id: { type: 'integer', example: 10 },
-            nombre: { type: 'string', example: 'Vinilo Retro' },
+            nombre: { type: 'string', example: 'Vinilo X' },
             descripcion: { type: 'string', example: 'Edición limitada de los 80s' },
             precio: { type: 'number', example: 25.99 },
             categoriaId: { type: 'integer', example: 2 },
@@ -71,7 +71,7 @@ const options = {
       }
     ]
   },
-  apis: ['./routes/*.js'], // aquí Swagger buscará anotaciones en tus rutas
+  apis: ['./routes/*.js'], 
 };
 
 const swaggerSpec = swaggerJsdoc(options);
