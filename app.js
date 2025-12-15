@@ -52,8 +52,8 @@ app.get('/about', (req, res) => {
   res.status(200).json({
     status: "success",
     data: {
-      nombreCompleto: "Daniel Bracho",
-      cedula: "31898868",
+      nombreCompleto: "Alba Romero",
+      cedula: "32634372",
       seccion: "2"
     }
   });

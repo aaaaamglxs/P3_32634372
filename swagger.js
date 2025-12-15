@@ -4,13 +4,13 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'API P3_31898868. Vinilos Retro',
+      title: 'API P3_32634372. Vinilos',
       version: '1.0.0',
       description: 'Documentación de la API para la gestión de productos, categorías y etiquetas.'
     },
     servers: [
       {
-        url: 'https://p3-31898868-1-6ia2.onrender.com',
+        url: 'https://p3-32634372.onrender.com',
         description: 'Servidor en Render'
       },
       {
